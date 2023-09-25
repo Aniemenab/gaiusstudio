@@ -1,0 +1,114 @@
+.caro_body {
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    margin-left: auto;
+}
+
+/****owlcarosusel****/
+
+.desktop_team {
+
+    width: 300px;
+    height: auto;
+    float: right;
+    /* background-color: pink; */
+    margin-right: 1rem;
+}
+
+
+.desktop_team-post .desktop_team-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    background-color: white;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.container .owl-nav {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* .owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next {
+    color: black;
+    background: transparent;
+    font-size: 2rem;
+} */
+
+/* .owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+    color: black;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    outline: none;
+} */
+
+/* ========================== */
+.Gaius-Desktop-about {
+    width: 300px;
+    height: auto;
+
+}
+
+.gaius-desk-about-img {
+    width: auto;
+    height: auto;
+}
+
+.gaius-desk-about-img img {
+    width: 65% !important;
+}
+
+.gaius-abt-text {
+    width: 70%;
+    height: auto;
+    color: white;
+}
+
+.text1 {
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.text1 h1 {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 20px;
+    /* 125% */
+    letter-spacing: 1px;
+}
+
+.text1 span {
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 150% */
+}
+
+.gaius-abt-text p {
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 80% */
+}

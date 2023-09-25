@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <!-- Font awesome -->
+    <!-- <link rel="stylesheet" href="./css/font-awesome.css"> -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Lato:wght@300&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="navBar">
+            <div class="navTalk">
+                <div class="letTalk">
+                    <div class="letTalk-img">
+                        <img src="./image/Desktop-1/Ellipse 19.png" alt="">
+                    </div>
+                    <div class="letTalk-text">
+                        <p>Let's Talk</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="Navmenu" id="sidebar-toggle" onclick="CloseSideBar()">
+
+                <div class="Navmenu-text">
+                    <p>Menu</p>
+                </div>
+                <div class="NavMenu-img"><img src="./image/Desktop-1/Vector (3).svg" alt=""></div>
+
+
+            </div>
+
+        </div>
+
+        <div class="sideNav_body">
+            <div class="sideNav_socials">
+                <a href="" class="active">
+                    <p class="active">Socials</p>
+                </a>
+                <a href="">
+                    <p>Dribble</p>
+                </a>
+                <a href="">
+                    <p>Behance</p>
+                </a>
+                <a href="">
+                    <p>Twitter</p>
+                </a>
+                <a href="">
+                    <p>Instagram</p>
+                </a>
+                <a href="">
+                    <p>Github</p>
+                </a>
+            </div>
+            <div class="sideNav_img_body">
+                <img src="./image/Rectangle 2694 (2).png" alt="">
+            </div>
+            <div class="sideNav_link_body">
+                <a href="./index.html">
+                    <p>Welcome</p>
+                    <h1>Home</h1>
+                </a>
+                <a href="./about.html">
+                    <p>Who We Are</p>
+                    <h1>About Us</h1>
+                </a>
+                <a href="./casestudy.html">
+                    <p>Case Studies of</p>
+                    <h1>Our Work</h1>
+                </a>
+                <a href="./contact.html">
+                    <p>Talk to us, We listen</p>
+                    <h1>Contact Us</h1>
+                </a>
+                <a href="./gaius.html">
+                    <p>The Designer</p>
+                    <h1>Gaius</h1>
+
+                </a>
+                <a href="./beluchi.html">
+                    <p>The Developer</p>
+                    <h1>Beluchi</h1>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="footerSide" class="footerSide">
+        <div class="footerSide_main">
+            <div class="lets_colab_body">
+                <div class="lets_col_text">
+                    <h2>Let's Collaborate</h2>
+                </div>
+                <div class="lets_col_x" onclick="CloseFooter()">
+                    <img src="./image/icon/ri_close-circle-fill.png" alt="">
+                </div>
+            </div>
+            <div class="lets_col_forms_body">
+                <form action="">
+                    <div class="lets_from1">
+                        <h3>May i please know your name?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="text" placeholder="Type your name">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                    <div class="lets_from1">
+                        <h3>What kind of project would like me to craft for you?<h3>
+                                <div class="col-3">
+                                    <input class="effect-3" type="text" placeholder="Say something about your project">
+                                    <span class="focus-border"></span>
+                                </div>
+                    </div>
+
+                    <div class="lets_from1">
+                        <h3>How should i get in touch with you?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="email" placeholder="Type your email">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+
+                    <div class="lets_from1">
+                        <h3>Anything else you like to mention?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="text" placeholder="More details about your project">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                </form>
+                <button type="submit" class="reach3">
+                    <h4>Write a message</h4>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+        <div class="navBar">
+            <a href="./index.html">
+                <div class="navTalk">
+                    <div class="letTalk">
+
+                        <div class="letTalk-text">
+                            <p>Gaius Studio</p>
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+            <div class="Navmenu" id="sidebar-toggle" onclick="OpenSideBar()">
+
+                <div class="Navmenu-text">
+                    <p>Menu</p>
+                </div>
+                <div class="NavMenu-img"><img src="./image/Desktop-1/Vector.svg" alt=""></div>
+
+
+            </div>
+        </div>
+
+        <!-- ==================END OF NAVBAR============================= -->
+        <div class="desktop_19_body">
+            <div class="desktop_19_text">
+                <h1>About Us</h1>
+                <p> A creative studio of visual and interactive experience</p>
+            </div>
+
+            <div class="desktop_19_creative_body">
+                <div class="creative_text">
+                    <p>Gaius Studio thrives at the intersection of design and development. With a gifted designer and a
+                        skilled developer at our helm, we orchestrate seamless digital experiences. Our designs tell
+                        stories, while our code brings them to life, resulting in captivating and functional websites
+                        that leave a lasting impression. Welcome to Gaius Studio, where innovation is our melody and
+                        collaboration is our rhythm.
+
+
+                    </p>
+                    <p>
+                        Led by designer's creative flair, we meticulously construct visuals that speak your brand's
+                        language. Meanwhile, our developer's technical finesse transforms these visuals into seamless
+                        interactions. The result? Websites that don't just look stunning, but also function flawlessly.
+                    </p>
+                    <!-- <span>We are born from the encounter of three passionate partners with complementary profiles.
+                        Production management, creative direction and technological lead: they form a complete
+                        production framework that passes its expertise and vision to the 3 poles of the studio.
+                        <p> But that's not all: designers,, developers, project managers...The members of our team all
+                            embody a facet of the creativity and technological innovation that inhabit our projects.
+                        </p>
+                    </span> -->
+                </div>
+                <div class="creative_img">
+                    <img src="./image/Rectangle 15 (2).png" alt="">
+                </div>
+            </div>
+            <div class="desktop_19_text2_body">
+                <div class="desktop_19_text2">
+                    <p> Client</p>
+                </div>
+
+                <div class="client_text_body">
+                    <div class="Client_text1">
+                        <p>I've had the pleasure of working with some great clients along the way.
+                            These are some of them!</p>
+                    </div>
+                    <div class="Client_text2">
+                        <p> Erema Botanics</p>
+                        <p> Rbswim School</p>
+                        <p> Superstore</p>
+                        <p> Noonsman</p>
+                        <p> Nailsgram </p>
+                        <p> Centro Exchange</p>
+                        <p> Maraz Aeesthetics </p>
+                        <a href="">
+                            <p> & 18 More</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tried_true_main_body">
+                <div class="tried_true_main">
+                    <div class="tried_text">
+                        <h1>Tried-and-true
+                            design process</h1>
+                    </div>
+                    <div class="tried_steps_body">
+                        <div class="tried_steps">
+                            <div class="tn">
+                                <p>(01)</p>
+                            </div>
+                            <div class="tried_text_head">
+                                <h1>Discovery</h1>
+                            </div>
+                            <div class="tried_text2">
+                                <span>
+                                    The first part of my process is about learning all about your industry
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="tried_steps">
+                            <div class="tn">
+                                <p>(01)</p>
+                            </div>
+                            <div class="tried_text_head">
+                                <h1>Strategy</h1>
+                            </div>
+                            <div class="tried_text2">
+                                <span>
+                                    Next, we'll map an approach to meet
+                                    your business's design objectives.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="tried_steps">
+                            <div class="tn">
+                                <p>(01)</p>
+                            </div>
+                            <div class="tried_text_head">
+                                <h1>WireFrame</h1>
+                            </div>
+                            <div class="tried_text2">
+                                <span>
+                                    Depending on complexity, I'll create wireframes
+                                    to get alignment on the strategic direction,
+                                    interactions, and the functional requirements.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="tried_steps mtt">
+                            <div class="tn">
+                                <p>(01)</p>
+                            </div>
+                            <div class="tried_text_head">
+                                <h1>Design</h1>
+                            </div>
+                            <div class="tried_text2">
+                                <span>
+                                    I'll explore the art direction and animation for the experience,
+                                    ensuring it aligns with your target audience and brand personality.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="tried_steps mtt">
+                            <div class="tn">
+                                <p>(01)</p>
+                            </div>
+                            <div class="tried_text_head">
+                                <h1>Build</h1>
+                            </div>
+                            <div class="tried_text2">
+                                <span>
+                                    Once the designs are finalized, I'll partner with a creative developer to bring the
+                                    vision to reality.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="tried_steps mtt">
+                            <div class="tn">
+                                <p>(01)</p>
+                            </div>
+                            <div class="tried_text_head">
+                                <h1>Deliver</h1>
+                            </div>
+                            <div class="tried_text2">
+                                <span>
+                                    Once the designs are finalized, I'll partner with a creative developer to bring the
+                                    vision to reality.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="say_hello">
+                <div class="desktop_19_text2">
+                    <p> Say Hello</p>
+                </div>
+                <div class="desktop_hello_body">
+                    <div class="hello_text">
+                        <p>Looking to start a new project or just want to say hi?
+                            Send me an email and I'll do my best to reply within 24 hrs!
+                        </p>
+                        <p>If contact forms aren't your thing... send me an email at <a href="">hello@arnau.design</a>
+                        </p>
+                    </div>
+
+                    <div class="hello_contact_body">
+                        <form action="">
+                            <div class="hello_cont">
+                                <p>Name *</p>
+                                <div class="col-3">
+                                    <input class="effect-14" type="text" placeholder="First Name" required/>
+                                    <span class="focus-bg"></span>
+                                </div>
+                            </div>
+                            <div class="hello_cont mtt3">
+
+                                <div class="col-3">
+                                    <input class="effect-14" type="text" placeholder="Last Name" required/>
+                                    <span class="focus-bg"></span>
+                                </div>
+                            </div>
+                            <div class="hello_cont mtt2">
+                                <p>Project *</p>
+                                <select id="" class="inquire_select" required>
+                                    <option value="">
+                                        <p>Collab/Client</p>
+                                    </option>
+                                    <option value="">
+                                        <p>Collab/Client</p>
+                                    </option>
+                                    <option value="">
+                                        <p>Collab/Client</p>
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="hello_cont mtt2">
+                                <p>Email *</p>
+                                <div class="col-3">
+                                    <input class="effect-14" type="email" placeholder=" hello@arnau.design" required/>
+                                    <span class="focus-bg"></span>
+                                </div>
+                            </div>
+
+                            <div class="hello_cont2 mtt2">
+                                <p>Message *</p>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Hello...." required></textarea>
+                            </div>
+                            <button type="submit">Send</button>
+                        </form>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- ==========================FOOTER=================================== -->
+        <div class="footer mtt" style="background-image: url('./image/footer/Capture.PNG');">
+            <div class="footer_item_body">
+                <div class="footer_top_text">
+                    <p>Let's Talk About The Next <span>Big Project</span> </p>
+                </div>
+                <div class="footer_reach">
+                    <div class="reach" onclick="FooterSide()">
+                        <h4>Write a message</h4>
+                    </div>
+                    <div class="reach2">
+                        <h4>Discuss a project</h4>
+                    </div>
+                </div>
+                <div class="footer_social_media">
+                    <div class="social_items">
+                        <div class="social_name">
+                            <p>Facebook</p>
+                            <p>richardolaf</p>
+                        </div>
+                        <div class="social_icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                    <div class="social_items2">
+                        <div class="social_name">
+                            <p>Twitter</p>
+                            <p>richardolaf</p>
+                        </div>
+                        <div class="social_icon">
+                            <i class="fab fa-twitter-square"></i>
+                        </div>
+                    </div>
+                    <div class="social_items">
+                        <div class="social_name">
+                            <p>Instagram</p>
+                            <p>richardolaf</p>
+                        </div>
+                        <div class="social_icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/sideBar.js"></script>
+
+</html>

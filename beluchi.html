@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <!-- Font awesome -->
+    <!-- <link rel="stylesheet" href="./css/font-awesome.css"> -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Lato:wght@300&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/team.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="navBar">
+            <div class="navTalk">
+                <div class="letTalk">
+                    <div class="letTalk-img">
+                        <img src="./image/Desktop-1/Ellipse 19.png" alt="">
+                    </div>
+                    <div class="letTalk-text">
+                        <p>Let's Talk</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="Navmenu" id="sidebar-toggle" onclick="CloseSideBar()">
+
+                <div class="Navmenu-text">
+                    <p>Menu</p>
+                </div>
+                <div class="NavMenu-img"><img src="./image/Desktop-1/Vector (3).svg" alt=""></div>
+
+
+            </div>
+
+        </div>
+
+        <div class="sideNav_body">
+            <div class="sideNav_socials">
+                <a href="" class="active">
+                    <p class="active">Socials</p>
+                </a>
+             <a href="">
+                    <p>Dribble</p>
+                </a>
+                <a href="">
+                    <p>Behance</p>
+                </a>
+                <a href="">
+                    <p>Twitter</p>
+                </a>
+                <a href="">
+                    <p>Instagram</p>
+                </a>
+                <a href="">
+                    <p>Github</p>
+                </a>
+            </div>
+            <div class="sideNav_img_body">
+                <img src="./image/Rectangle 2694 (2).png" alt="">
+            </div>
+            <div class="sideNav_link_body">
+                <a href="./index.html">
+                    <p>Welcome</p>
+                    <h1>Home</h1>
+                </a>
+                <a href="./about.html">
+                    <p>Who We Are</p>
+                    <h1>About Us</h1>
+                </a>
+                <a href="./casestudy.html">
+                    <p>Case Studies of</p>
+                    <h1>Our Work</h1>
+                </a>
+                <a href="./contact.html">
+                    <p>Talk to us, We listen</p>
+                    <h1>Contact Us</h1>
+                </a>
+                <a href="./gaius.html">
+                    <p>The Designer</p>
+                    <h1>Gaius</h1>
+
+                </a>
+                <a href="./beluchi.html">
+                    <p>The Developer</p>
+                    <h1>Beluchi</h1>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="footerSide" class="footerSide">
+        <div class="footerSide_main">
+            <div class="lets_colab_body">
+                <div class="lets_col_text">
+                    <h2>Let's Collaborate</h2>
+                </div>
+                <div class="lets_col_x" onclick="CloseFooter()">
+                    <img src="./image/icon/ri_close-circle-fill.png" alt="">
+                </div>
+            </div>
+            <div class="lets_col_forms_body">
+                <form action="">
+                    <div class="lets_from1">
+                        <h3>May i please know your name?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="text" placeholder="Type your name">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                    <div class="lets_from1">
+                        <h3>What kind of project would like me to craft for you?<h3>
+                                <div class="col-3">
+                                    <input class="effect-3" type="text" placeholder="Say something about your project">
+                                    <span class="focus-border"></span>
+                                </div>
+                    </div>
+
+                    <div class="lets_from1">
+                        <h3>How should i get in touch with you?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="email" placeholder="Type your email">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+
+                    <div class="lets_from1">
+                        <h3>Anything else you like to mention?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="text" placeholder="More details about your project">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                </form>
+                <button type="submit" class="reach3">
+                    <h4>Write a message</h4>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+        <div class="navBar">
+            <a href="./index.html">
+                <div class="navTalk">
+                    <div class="letTalk">
+
+                        <div class="letTalk-text">
+                            <p>Gaius Studio</p>
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+            <div class="Navmenu" id="sidebar-toggle" onclick="OpenSideBar()">
+
+                <div class="Navmenu-text">
+                    <p>Menu</p>
+                </div>
+                <div class="NavMenu-img"><img src="./image/Desktop-1/Vector.svg" alt=""></div>
+
+
+            </div>
+        </div>
+
+        <!-- ==================END OF NAVBAR============================= -->
+
+
+        <div class="team_profile_body" style="background-image: url('./image/team/Banner.png');">
+            <div class="team_picture">
+                <img src="./image/team/Background (2).png" alt="">
+            </div>
+            <div class="team_text_body">
+                <div class="team_into_top_text">
+                    <h1>Hi, I'm Beluchi! <img src="./image/team/Sign of the Horns.png" alt=""></h1>
+                </div>
+                <div class="team_text2">
+                    <p>Talented brand and product designer with a background in computer science and three years of
+                        experience in the design industry. Recognized with multiple awards for outstanding designs.
+                        Creative problem solver with a passion for innovation and a deep understanding of design
+                        principles.
+
+                    </p>
+                    <p>Think of me as a conductor orchestrating a symphony of imagination and functionality. I've
+                        transformed brand identities into captivating stories and sculpted product interfaces into
+                        seamless journeys.
+                    </p>
+                </div>
+                <div class="resu_info">
+                    <a href="">
+                        <div class="resume">
+                            <h3>Resume <i class="fas fa-download"></i></h3>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="linkedIn">
+                            <a href="">LinkedIn</a>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="linkedIn">
+                            <a href="">Instagram</a>
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="linkedIn">
+                            <a href="">Twitter</a>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="team_background_body">
+            <div class="team_education">
+                <div class="edu">
+                    <h1>Education</h1>
+                </div>
+                <div class="edu2">
+                    <div class="edu_year">
+                        <div class="edu_yr1">
+                            <p>Oct 2017 - Jan 2021</p>
+                        </div>
+                    </div>
+                    <div class="edu_sch">
+                        <div class="edu_yr1_img">
+                            <img src="./image/team/Point.svg" alt="">
+                        </div>
+                        <div class="edu_sch_text">
+                            <p>Nnamdi Azikwe University Anambra.</p>
+                            <p>Bachelor of Science in Computer Science</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="team_workingExpr_body">
+            <div class="team_education">
+                <div class="edu">
+                    <h1>Work Experience</h1>
+                </div>
+                <div class="edu2">
+                    <div class="edu_year">
+                        <div class="edu_yr1">
+                            <p> April 2023 - June 2023</p>
+                        </div>
+                    </div>
+                    <div class="edu_sch">
+                        <div class="edu_yr1_imgg">
+                            <img src="./image/team/Point.svg" alt="">
+                        </div>
+                        <div class="edu_sch_text">
+                            <p>RBS Swim School, Australia</p>
+                            <p>Product designer</p>
+                            <ul>
+                                <li>Designed visually appealing and user-friendly interfaces for digital products,
+                                    including website, and web app</li>
+                                <li>Created wireframes and prototypes to test and refine designs</li>
+                                <li> Collaborated with cross-functional teams, including developers and stakeholders, to
+                                    ensure designs met both design and technical requirements</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="team_education nmt">
+                <div class="edu">
+
+                </div>
+                <div class="edu2">
+                    <div class="edu_year">
+                        <div class="edu_yr1">
+                            <p> Dec 2020 - Dec 2022</p>
+                        </div>
+                    </div>
+                    <div class="edu_sch">
+                        <div class="edu_yr1_imgg2">
+                            <img src="./image/team/Point.svg" alt="">
+                        </div>
+                        <div class="edu_sch_text">
+                            <p>RBS Swim School, Australia</p>
+                            <p>Brand designer</p>
+                            <ul>
+                                <li> Collaborated with cross-functional teams to develop and design marketing materials,
+                                    including brochures, packaging, and digital assets, resulting in a consistent brand
+                                    image across all channels. Conducted research and analyzed data to identify target
+                                    audience preferences and trends, and incorporated these findings into the
+                                    development
+                                    of brand strategies and design solutions based on my experience
+                                </li>
+
+                                <li>Collaborated with cross-functional teams to develop and design marketing materials,
+                                    including brochures, packaging, and digital assets, resulting in a consistent brand
+                                    image across all channels.
+                                </li>
+
+                                <li> Conducted research and analyzed data to identify target audience preferences and
+                                    trends, and incorporated these findings into the development of brand strategies and
+                                    design solutions based on my experience
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="team_education nmt">
+                <div class="edu">
+
+                </div>
+                <div class="edu2">
+                    <div class="edu_year">
+                        <div class="edu_yr1">
+                            <p> Dec 2021 - May 2023</p>
+                        </div>
+                    </div>
+                    <div class="edu_sch">
+                        <div class="edu_yr1_imgg3">
+                            <img src="./image/team/Point.svg" alt="">
+                        </div>
+                        <div class="edu_sch_text">
+                            <p>Erema Botanics, United Kingdom</p>
+                            <p>Brand designer</p>
+                            <ul>
+                                <li>Created and implemented brand identity and visual style guidelines for Erema
+                                    Botanics, resulting in a 50% increase in brand recognition and a 40% increase in
+                                    sales
+                                </li>
+
+                                <li>Collaborated with cross-functional teams to develop and design marketing materials,
+                                    including Social Media Posters and Packaging, resulting in a consistent brand image
+                                    across all channels
+                                </li>
+
+                                <li> Conducted research and analyzed data to identify target audience preferences and
+                                    trends, and incorporated these findings into the development of brand strategies and
+                                    design solutions
+                                </li>
+                                <li> Led the idea of Erema Botanics's website, resulting in a 20% increase in website
+                                    traffic and a 5% increase in online conversions
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="team_education nmt">
+                <div class="edu">
+
+                </div>
+                <div class="edu2">
+                    <div class="edu_year">
+                        <div class="edu_yr1">
+                            <p> Dec 2021 - May 2023</p>
+                        </div>
+                    </div>
+                    <div class="edu_sch">
+                        <div class="edu_yr1_imgg4">
+                            <img src="./image/team/Point.svg" alt="">
+                        </div>
+                        <div class="edu_sch_text">
+                            <p>Flyshikis, USA</p>
+                            <p>Brand designer</p>
+                            <ul>
+                                <li>Collaborated with cross-functional teams to develop and design marketing materials,
+                                    including Social Media Posters and Videos, resulting in a consistent brand image
+                                    across all channels
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="team_skill_body">
+            <div class="skill_one_body">
+                <div class="skill_head_text"> <h1>Skills</h1></div>
+               
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>PhotoShop</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Figma</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>After Effects</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p> Adobe Illustrator</p>
+                    </div>
+                </div>
+
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Microsoft Word</p>
+                    </div>
+                </div>
+
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Microsoft Excel</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Powerpoint</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="skill_one_body2">
+                <div class="skill_head_text"> <h1>Skills</h1></div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Interface Design</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Human-Centered Design</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p> Visual Design</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>  User Research</p>
+                    </div>
+                </div>
+
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Interaction Design</p>
+                    </div>
+                </div>
+
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p>Prototyping</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p> Presentation</p>
+                    </div>
+                </div>
+                <div class="skill_one">
+                    <div class="skill_img">
+                        <img src="./image/team/Icon.svg" alt="">
+                    </div>
+                    <div class="skill_text">
+                        <p> Usability Testing</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="certficate_body">
+                <div class="skill_one_body2">
+                    <div class="skill_head_text"> <h1>Certifications</h1></div>
+                    <div class="skill_one">
+                        <div class="skill_img">
+                            <img src="./image/team/Icon.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <p>Google UX design course, Coursera</p>
+                        </div>
+                    </div>
+                    <!-- <div class="skill_one">
+                        <div class="skill_img">
+                            <img src="./image/team/Icon.svg" alt="">
+                        </div>
+                        <div class="skill_text">
+                            <p>Human-Centered Design</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer mtt" style="background-image: url('./image/footer/Capture.PNG');">
+            <div class="footer_item_body">
+                <div class="footer_top_text">
+                    <p>Let's Talk About The Next <span>Big Project</span> </p>
+                </div>
+                <div class="footer_reach">
+                    <div class="reach" onclick="FooterSide()">
+                        <h4>Write a message</h4>
+                    </div>
+                    <div class="reach2">
+                        <h4>Discuss a project</h4>
+                    </div>
+                </div>
+                <div class="footer_social_media">
+                    <div class="social_items">
+                        <div class="social_name">
+                            <p>Facebook</p>
+                            <p>richardolaf</p>
+                        </div>
+                        <div class="social_icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                    <div class="social_items2">
+                        <div class="social_name">
+                            <p>Twitter</p>
+                            <p>richardolaf</p>
+                        </div>
+                        <div class="social_icon">
+                            <i class="fab fa-twitter-square"></i>
+                        </div>
+                    </div>
+                    <div class="social_items">
+                        <div class="social_name">
+                            <p>Instagram</p>
+                            <p>richardolaf</p>
+                        </div>
+                        <div class="social_icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- ==========================FOOTER=================================== -->
+ 
+
+</body>
+<script src="./js/sideBar.js"></script>
+
+</html>

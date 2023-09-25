@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+ :focus {
+    outline: 0;
+}
+
+
+/*sliderone*/
+
+.site-slider-two {
+    position: relative;
+    height: 30%;
+    padding-top: 3rem;
+}
+
+
+
+
+
+.site-slider-one .film {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    margin: auto;
+}
+
+.slider-one-img {
+    width:97%;
+    height: auto;
+}
+.slider-one-img img{
+    width: 100%;
+    height: 35vh;
+}
+
+
+
+
+
+
+/*
+*
+* =====================
+* REFERENCES
+* =====================
+*
+*/
+
+
+
+@media (max-width: 767.98px) {
+    .reference {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <!-- Font awesome -->
+    <!-- <link rel="stylesheet" href="./css/font-awesome.css"> -->
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Lato:wght@300&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/preloader.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/satoshi.css">
+    <link rel="stylesheet" href="./css/deskCaro.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="intro">
+        </div>
+        <div class="main_preloader_img animate__animated animate__slideInDown" style="background-image: url('./image/Start\ 2.png');">
+         
+        </div>
+        <div class="main_pre_text animate__animated animate__slideInUp">
+            <div class="pre_text">
+                <span>From Earth to the farthest reaches of
+                    creativity, we craft experiences that are truly out of this world.</span>
+            </div>
+
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <div class="navBar">
+            <div class="navTalk">
+                <div class="letTalk let-br">
+                    <div class="letTalk-img">
+                        <img src="./image/Desktop-1/Ellipse 19.png" alt="">
+                    </div>
+                    <div class="letTalk-text ">
+                        <p>Let's Talk</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="Navmenu" id="sidebar-toggle" onclick="CloseSideBar()">
+
+                <div class="Navmenu-text">
+                    <p>Menu</p>
+                </div>
+                <div class="NavMenu-img"><img src="./image/Desktop-1/Vector (3).svg" alt=""></div>
+
+
+            </div>
+
+        </div>
+
+        <div class="sideNav_body">
+            <div class="sideNav_socials">
+                <a href="" class="active">
+                    <p class="active">Socials</p>
+                </a>
+                <a href="">
+                    <p>Dribble</p>
+                </a>
+                <a href="">
+                    <p>Behance</p>
+                </a>
+                <a href="">
+                    <p>Twitter</p>
+                </a>
+                <a href="">
+                    <p>Instagram</p>
+                </a>
+                <a href="">
+                    <p>Github</p>
+                </a>
+            </div>
+            <div class="sideNav_img_body">
+                <img src="./image/Rectangle 2694 (2).png" alt="">
+            </div>
+            <div class="sideNav_link_body">
+                <a href="./index.html">
+                    <p>Welcome</p>
+                    <h1>Home</h1>
+                </a>
+                <a href="./about.html">
+                    <p>Who We Are</p>
+                    <h1>About Us</h1>
+                </a>
+                <a href="./casestudy.html">
+                    <p>Case Studies of</p>
+                    <h1>Our Work</h1>
+                </a>
+                <a href="./contact.html">
+                    <p>Talk to us, We listen</p>
+                    <h1>Contact Us</h1>
+                </a>
+                <a href="./gaius.html">
+                    <p>The Designer</p>
+                    <h1>Gaius</h1>
+
+                </a>
+                <a href="./beluchi.html">
+                    <p>The Developer</p>
+                    <h1>Beluchi</h1>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="footerSide" class="footerSide">
+        <div class="footerSide_main">
+            <div class="lets_colab_body">
+                <div class="lets_col_text">
+                    <h2>Let's Collaborate</h2>
+                </div>
+                <div class="lets_col_x" onclick="CloseFooter()">
+                    <img src="./image/icon/ri_close-circle-fill.png" alt="">
+                </div>
+            </div>
+            <div class="lets_col_forms_body">
+                <form action="">
+                    <div class="lets_from1">
+                        <h3>May i please know your name?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="text" placeholder="Type your name">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                    <div class="lets_from1">
+                        <h3>What kind of project would like me to craft for you?<h3>
+                                <div class="col-3">
+                                    <input class="effect-3" type="text" placeholder="Say something about your project">
+                                    <span class="focus-border"></span>
+                                </div>
+                    </div>
+
+                    <div class="lets_from1">
+                        <h3>How should i get in touch with you?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="email" placeholder="Type your email">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+
+                    <div class="lets_from1">
+                        <h3>Anything else you like to mention?</h3>
+                        <div class="col-3">
+                            <input class="effect-3" type="text" placeholder="More details about your project">
+                            <span class="focus-border"></span>
+                        </div>
+                    </div>
+                </form>
+                <button type="submit" class="reach3">
+                    <h4>Write a message</h4>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+        <div class="Desktop-1-Body" style="background-image: url(./image/Desktop-1/image\ 92.png);">
+            <div class="navBar">
+                <a href="./index.html">
+                    <div class="navTalk">
+                        <div class="letTalk">
+
+                            <div class="letTalk-text">
+                                <p>Gaius Studio</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+
+                <div class="Navmenu" id="sidebar-toggle" onclick="OpenSideBar()">
+
+                    <div class="Navmenu-text">
+                        <p>Menu</p>
+                    </div>
+                    <div class="NavMenu-img"><img src="./image/Desktop-1/Vector.svg" alt=""></div>
+
+
+                </div>
+            </div>
+
+            <div class="desktop-1-body-intro">
+                <div class="desktop-1-body-intro-text">
+                    <div class="Bintro_text">
+                        <p>Hello people!</p>
+                        <h1>We Make Boring Things Interesting</h1>
+                    </div>
+                    <div class="Bintro_text2">
+                        <p>We're Creative Digital Studio. We Design The Change You And The World wants To See</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="round_caro_body">
+                <div class="both_body">
+                    <div class="gRound_body">
+                        <div class="ricon_toog_body">
+                            <div class="toog">
+                                <div class="toog_ball"></div>
+                            </div>
+                        </div>
+                        <div class="round" style="background-image: url('./image/Desktop-1/Component\ 15.png');">
+                        </div>
+                    </div>
+                    <div class="caro_body">
+                        <div class="desktop_team" style="  background-image: url(./image/turn.jpg);">
+                            <div class="container">
+                                <div class="owl-carousel owl-theme desktop_team-post ">
+
+                                    <div class="Gaius-Desktop-about">
+                                        <div class="gaius-desk-about-img">
+                                            <img src="./image/Desktop-1/GC-avatar.png" alt="">
+                                        </div>
+                                        <div class="gaius-abt-text">
+                                            <div class="text1">
+                                                <h1>GAIUS</h1>
+                                                <span>"Design is the bridge between reality and imagination, where
+                                                    creativity finds its purpose and innovation takes form."
+                                                </span>
+
+                                            </div>
+                                            <p>Designer</p>
+                                        </div>
+                                    </div>
+                                    <div class="Gaius-Desktop-about">
+                                        <div class="gaius-desk-about-img">
+                                            <img src="./image/Desktop-1/Rectangle 99.png" alt="">
+                                        </div>
+                                        <div class="gaius-abt-text">
+                                            <div class="text1">
+                                                <h1>BELUCHI</h1>
+                                                <span>"Web developers are the architects of the digital world, weaving
+                                                    code into experiences that shape the online landscape and connect us
+                                                    across boundaries.".
+                                                </span>
+
+                                            </div>
+                                            <p>Developer</p>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <!-- <div class="owl-navigation">
+                                    <span class="owl-nav-prev "><i class="fas fa-long-arrow-alt-left "></i></span>
+                                    <span class="owl-nav-next "><i class="fas fa-long-arrow-alt-right "></i></span>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="desktop-1-about">
+            <div class="desktop-1-about-headText">
+                <h1>We produce and craft DESIGNS</h1>
+            </div>
+            <div class="desktop-1-abouttext">
+                <div class="deskAbt-text">
+                    <h1>About</h1>
+                </div>
+                <div class="deskAbt-text-intro">
+                    <span>
+                        Developing Visual designs that THATS TELLS YOUR BRAND STORY,
+                        which are certain to draw the interest of your viewers. Exploring
+                        the possibilities of design in the digital sphere,
+                        where graphic design, product design, and web development all meet.
+                    </span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="selectedProjectBody">
+            <div class="selectedProjectHeadText">
+                <div class="selectHeadText op">
+                    <img src="./image/Desktop-1/Selected Projects.png" alt="">
+                </div>
+                <div class="selectHeadText tp">
+                    <h2>Selected Projects</h2>
+                </div>
+                <div class="selectHeadText op">
+                    <img src="./image/Desktop-1/Selected Projects (1).png" alt="">
+                </div>
+            </div>
+            <div class="selectedProjectimg">
+                <div class="site-slider-two">
+
+                    <!-- <div class="real">
+
+                        <div class="slider-btn ">
+
+                            <span class="prev position-top "><i
+                                    class="fas fa-arrow-alt-circle-left fa-2x text-secondary "></i></span>
+                            <span class="next position-top right-0 "><i
+                                    class="fas fa-arrow-alt-circle-right fa-2x text-secondary "></i></span>
+                        </div>
+                    </div> -->
+
+                    <div class="row slider-two text-center ">
+                        <div class="col-md-25 film">
+
+                            <div class="slider-one-img">
+                                <img src="./image/Desktop-1/Rectangle 2685.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-25 film">
+
+                            <div class="slider-one-img">
+
+                                <img src="./image/Desktop-1/Rectangle 2684.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-25 film">
+
+                            <div class="slider-one-img">
+
+                                <img src="./image/Desktop-1/Rectangle 2682 (2).png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-25 film">
+
+                            <div class="slider-one-img">
+
+                                <img src="./image/Desktop-1/Rectangle 2680 (2).png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-25 film">
+
+                            <div class="slider-one-img">
+
+                                <img src="./image/Desktop-1/Rectangle 2681.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-25 film">
+
+                            <div class="slider-one-img">
+
+                                <img src="./image/Desktop-1/Rectangle 2685 (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-25 film">
+
+                            <div class="slider-one-img">
+
+                                <img src="./image/Desktop-1/Rectangle 2686 (2).png" alt="">
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="selectedProjectimg2">
+                <div class="reference">
+                    <div class="select-img0">
+                        <a href="./jobforvets.html">
+                            <img src="./image/Desktop-1/Rectangle 2679.png" alt="">
+                            <div class="overlay">
+
+                                <div class="inner">
+                                    <p>Mobile Design</p>
+                                    <h3 class="h4 reference-title">Jobsforvets</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="reference2">
+                    <div class="select-img1">
+                        <a href="./nailgarms.html">
+                            <img src="./image/Desktop-1/Rectangle 2683 (3).png" alt="" class="img-fluid">
+                            <div class="overlay">
+
+                                <div class="inner">
+                                    <p>Brand Design</p>
+                                    <h3 class="h4 reference-title">Nailgarsm</h3>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="reference">
+                    <div class="select-img0">
+                        <a href="./jobforvets.html">
+                            <img src="./image/Desktop-1/Rectangle 2684 (2).png" alt="" class="img-fluid">
+                            <div class="overlay">
+
+                                <div class="inner">
+                                    <p>Mobile Design</p>
+                                    <h3 class="h4 reference-title">Jobsforvets</h3>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- <div class="reference">
+                    <a href="">
+                   
+                        <div class="overlay">
+                            <div class="inner">
+                                <h3 class="h4 reference-title">Movie website</h3>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="reference">
+                    <a href="">
+                        <img src="./image/Desktop-1/Rectangle 2684 (2).png" alt="" class="img-fluid">
+                        <div class="overlay">
+                            <div class="inner">
+                                <h3 class="h4 reference-title">Movie website</h3>
+                            </div>
+
+                        </div>
+                    </a>
+                </div> -->
+
+
+
+
+
+
+            </div>
+
+            <div class="selectedProjectimg3">
+                <div class="reference3">
+                    <div class="select-img2">
+                        <a href="./menitrust.html">
+                            <img src="./image/Desktop-1/Rectangle 2685 (2).png" alt="" class="img-fluid">
+                            <div class="overlay">
+
+                                <div class="inner">
+                                    <p>Mobile Design</p>
+                                    <h3 class="h4 reference-title">Men I Trust</h3>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="reference2">
+                    <div class="select-img1">
+                        <a href="./kuramen.html">
+                            <img src="./image/Desktop-1/Rectangle 2686.png" alt="" class="img-fluid">
+                            <div class="overlay">
+
+                                <div class="inner">
+                                    <p>Brand Design</p>
+                                    <h3 class="h4 reference-title">Ku Ramen</h3>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="selectedProjectimg3">
+                <div class="reference2">
+                    <div class="select-img1">
+                        <a href="./onsraa.html">
+                            <img src="./image/Desktop-1/Rectangle 2688 (2).png" alt="" class="img-fluid">
+                            <div class="overlay">
+
+                                <div class="inner">
+                                    <p>Brand Design</p>
+                                    <h3 class="h4 reference-title">Onsraa Fashion Store</h3>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="reference3">
+                    <div class="select-img2">
+                        <a href="./colyne.html">
+                            <img src="./image/Desktop-1/Rectangle 2687.png" alt="" class="img-fluid">
+                            <div class="overlay">
+
+                                <div class="inner">
+                                    <p>Brand Design</p>
+                                    <h3 class="h4 reference-title">Colyne Fashion House</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =================================================================== -->
+    <div class="desktop_service">
+        <div class="desktop_1_service-headtext">
+            <div class="selectHeadText op">
+                <img src="./image/Desktop-1/Services.png" alt="">
+            </div>
+            <div class="selectHeadText">
+                <h2>Services</h2>
+            </div>
+            <div class="selectHeadText op">
+                <img src="./image/Desktop-1/Services.png" alt="">
+            </div>
+        </div>
+
+        <div class="service_brand_desktop-1">
+            <div class="desktop_1_Serviceproduct_body">
+                <div class="desktop_1_Serviceproduct">
+                    <div class="desktop_1_ServiceproductList">
+                        <div class="desktop_1_service_name">
+                            <h1>Brand & Graphic Design</h1>
+                        </div>
+                        <div class="desktop_1_service_name">
+                            <p>Brand Identity Design - Posters/Banners Designs - Logo Design</p>
+
+                        </div>
+                    </div>
+                    <a href="./brandandgraphics.html">
+                        <div class="desktop_1_Service_icon">
+                            <div class="inner_service_icon">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="desktop_1_Serviceproduct">
+                    <div class="desktop_1_ServiceproductList">
+                        <div class="desktop_1_service_name">
+                            <h1>Web Development</h1>
+                        </div>
+                        <div class="desktop_1_service_name">
+                            <p>Brand Design - Webflow Development - Web Design</p>
+
+                        </div>
+                    </div>
+                    <a href="./web-development.html">
+                        <div class="desktop_1_Service_icon">
+                            <div class="inner_service_icon">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="desktop_1_Serviceproduct">
+                    <div class="desktop_1_ServiceproductList">
+                        <div class="desktop_1_service_name">
+                            <h1>Product Design</h1>
+                        </div>
+                        <div class="desktop_1_service_name">
+                            <p>User Research - User interface design - Mobile & Web Design</p>
+
+                        </div>
+                    </div>
+                    <a href="./productdesign.html">
+                        <div class="desktop_1_Service_icon">
+                            <div class="inner_service_icon">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+                    </a>
+
+
+                </div>
+                <div class="desktop_1_Serviceproduct2">
+                    <div class="desktop_1_ServiceproductList">
+                        <div class="desktop_1_service_name">
+                            <h1>Digital Marketing</h1>
+                        </div>
+                        <div class="desktop_1_service_name">
+                            <p>Seo - Marketing designs - Social Media Management</p>
+
+                        </div>
+                    </div>
+                    <a href="">
+                        <div class="desktop_1_Service_icon">
+                            <div class="inner_service_icon">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- ============================================================================= -->
+    <div class="brands_main_cover">
+        <div class="BrandDesignPagesNav">
+            <div class="BrandDesign_desktop_1_Img">
+                <div class="desktop-1-BrandImg">
+                    <img src="./image/Desktop-1/Rectangle 44.png" alt="">
+                </div>
+                <div class="brand_desktop_text">
+                    <div class="brand_desktop_1_text_head">
+                        <h1>BRANDS & GRAPHIC DESIGNS</h1>
+                    </div>
+                    <div class="brand_desktop_1_text">
+                        <span>We work for leading international brands, helping them to express
+                            their identity and reach their audience in a way that is new,
+                            exciting and engaging. Whether online or in-store, the aim is to reach
+                            the audience and create a real coWe work for leading international brands,
+                            helping them to express their identity and reach their.
+                        </span>
+                    </div>
+                    <a href="./brandandgraphics.html">
+                        <div class="brand_desktop_1_nav">
+                            <div class="brand_desk_a nav-br">
+                                <p>VIEW PROJECT</p>
+                            </div>
+                            <div class="brand_desk_a">
+                                <img src="./image/icon/Component 12.png" alt="">
+                                <i class="arrow"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="BrandDesignPagesNav">
+            <div class="BrandDesign_desktop_1_Img2">
+                <div class="desktop-1-BrandImg2">
+                    <img src="./image/Desktop-1/Rectangle 45.png" alt="">
+                </div>
+                <div class="brand_desktop_text2">
+                    <div class="brand_desktop_1_text_head">
+                        <h1>PRODUCT DESIGN</h1>
+                    </div>
+                    <div class="brand_desktop_1_text">
+                        <span>Product design involves the creation of
+                            physical products that are both functional and aesthetically pleasing.
+                        </span>
+                    </div>
+                    <a href="/productdesign.html">
+                        <div class="brand_desktop_1_nav">
+                            <div class="brand_desk_a nav-br">
+                                <p>VIEW PROJECT</p>
+                            </div>
+                            <div class="brand_desk_a">
+                                <img src="./image/icon/Component 12.png" alt="">
+                                <i class="arrow"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="comot"></div>
+        <div class="BrandDesignPagesNav">
+            <div class="BrandDesign_desktop_1_Img">
+                <div class="desktop-1-BrandImg">
+                    <img src="./image/Desktop-1/Rectangle 44 (3).png" alt="">
+                </div>
+                <div class="brand_desktop_text">
+                    <div class="brand_desktop_1_text_head">
+                        <h1>WEB DEVELOPMENT</h1>
+                    </div>
+                    <div class="brand_desktop_1_text">
+                        <span>Web development involves the creation of websites
+                            and other digital platforms that enable us to interact with the world around us.
+                            From e-commerce sites and social media platforms to educational resources and
+                            entertainment portals,
+                            web development plays a crucial role in our daily lives.
+                        </span>
+                    </div>
+                    <a href="./web-development.html">
+                        <div class="brand_desktop_1_nav">
+                            <div class="brand_desk_a nav-br">
+                                <p>VIEW PROJECT</p>
+                            </div>
+                            <div class="brand_desk_a">
+                                <img src="./image/icon/Component 12.png" alt="">
+                                <i class="arrow"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="inter_brand">
+        <div class="inter_brand_cover">
+
+            <div class="inter_brand_text">
+                <span>International brands we have worked within recent times. helping them to express their identity
+                    and reach their audience in a way that is new, exciting and engaging helping them to express their
+                    identity and reach their audience in a way that is new, exciting and engaging
+                </span>
+            </div>
+
+            <div class="inter_brand_img_cover2">
+                <img src="https://s3-alpha-sig.figma.com/img/bbe9/d7d6/70c0092623762c01ea9af8d13bbbaddf?Expires=1696204800&Signature=ikCoWZRq~soK6xn~OQW7ZqgycEqNiWVGW9BPJg8Y6oPx-u-9YQbTaEsEINwYZ63Sw5zLKSiS2v7AiXPWhmNQrtl3p2CbTyEM8AP-uMAVVVojUISfxQ47MoaP7jLl0dYzlhY20n8nq4xaxeZ65wa9M5g-JIWLVwi7dSEDQ5RXFow3zPh9XtaZglLHsReybFgNsy8MGW5nefc3nQOxrTXJAYqA3HiOu4TVa-KNd18PCX3dtvd00cS15pVHw3OWySR8tEt~92Yfw87jWqj41kHPgPdKpdUZZ9qX-zxRiFM0u5yTUye0bZpnaEBojL9h0JG3~DlOJgrlznR1WQik5sH41A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                    alt="">
+            </div>
+
+            <!-- <div class="inter_brand_main_cover">
+                <div class="inter_brand_list_cover">
+                    <div class="inter_brand_list">
+                        <img src="./image/Desktop-1/Vector (1).png" alt="">
+                    </div>
+                    <div class="inter_brand_list2">
+                        <img src="./image/Desktop-1/Vector (2).png" alt="">
+                    </div>
+                    <div class="inter_brand_list2">
+                        <img src="./image/Desktop-1/Vector (3).png" alt="">
+                    </div>
+                    <div class="inter_brand_list">
+                        <img src="./image/Desktop-1/Vector (2).png" alt="">
+                    </div>
+
+                </div>
+                <div class="inter_brand_list_cover bt">
+                    <div class="inter_brand_list">
+                        <img src="./image/Desktop-1/Vector (6).png" alt="">
+                    </div>
+                    <div class="inter_brand_list2">
+                        <img src="./image/Desktop-1/Vector (4).png" alt="">
+                    </div>
+                    <div class="inter_brand_list2">
+                        <img src="./image/Desktop-1/Vector (5).png" alt="">
+                    </div>
+
+                    <div class="inter_brand_list">
+                        <img src="./image/Desktop-1/Vector (6).png" alt="">
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+    </div>
+
+    <!-- <div class="door_will_open_body">
+            <div class="door_will_open">
+                <div class="door_will_open_text">
+                    <h1>THE DOORS WILL ALWAYS BE
+                        OPENED TO THOSE WHO ARE
+                        BOLD ENOUGH TO KNOCK .</h1>
+                </div>
+                <div class="door_will_open_img">
+                    <img src="https://s3-alpha-sig.figma.com/img/62dc/4bdb/e9ecf5fb9b79cce49d0420c97ffcbf1c?Expires=1692576000&Signature=AdPSg--CqcoPqzEj7-qJvoMvnS8JdFKp4LJIZlHYjcdyaScP1NwoP4bPvR8rLUebjVhKB-GqWO3nw0dYMTAKIW4sNMYJRXXs945pu7Yt4A6VUT5xksMb6-Fb1a8J4stEcZUfQDS01MurLjEJJbYCTKXHVhHv46~YR9kmeIWytd3808oZTiEIeGPJ~XbdMwpCBHux6VdBAkyOBR5lSxZgQ8y7Y2p5DH02XZgp6DTYUKBNJj7CIi2XRkqPrbEWqMwteTf~a4yKsSPE~sPXri0wauyN9U~sCjaLHE0X3MiyJHIRUHluBhiEqGjnQKl71dhBddeUcTeYMDgTg2lsP3icBA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                        alt="">
+                </div>
+            </div>
+        </div> -->
+
+    <!-- ==========================FOOTER=================================== -->
+    <div class="footer" style="background-image: url('./image/footer/Capture.PNG');">
+        <div class="footer_item_body">
+            <div class="footer_top_text">
+                <p>Let's Talk About The Next <span>Big Project</span> </p>
+            </div>
+            <div class="footer_reach">
+                <div class="reach" onclick="FooterSide()">
+                    <h4>Write a message</h4>
+                </div>
+                <div class="reach2">
+                    <h4>Discuss a project</h4>
+                </div>
+            </div>
+            <div class="footer_social_media">
+                <div class="social_items">
+                    <div class="social_name">
+                        <p>Facebook</p>
+                        <p>richardolaf</p>
+                    </div>
+                    <div class="social_icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                </div>
+                <div class="social_items2">
+                    <div class="social_name">
+                        <p>Twitter</p>
+                        <p>richardolaf</p>
+                    </div>
+                    <div class="social_icon">
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                </div>
+                <div class="social_items">
+                    <div class="social_name">
+                        <p>Instagram</p>
+                        <p>richardolaf</p>
+                    </div>
+                    <div class="social_icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="./js/jquery-3.3.1.min.js "></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/carousel.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js "
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf "
+    crossorigin="anonymous "></script>
+<script src="./js/slider.js "></script>
+<script src="./js/preloader.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo "
+    crossorigin="anonymous "></script>
+<script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+<script src="./js/slider.js"></script>
+<script src="./js/owl.carousel.min.js "></script>
+<script src="./js/owl.carousel.js"></script>
+<script src="./js/sideBar.js"></script>
+</html>

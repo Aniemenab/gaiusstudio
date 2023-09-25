@@ -1,0 +1,205 @@
+.mll{
+    margin-left: 1rem;
+}
+.mayuse{
+    width: 100%;
+    height: 400px;
+}
+.about_us_top_text_body{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5rem;
+    background-color: white;
+}
+.about_us_top_text{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3rem;
+}
+.about_us_top_text h1{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about_us_top_text2{
+    width: 350px;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+/* ================================= */
+.expert_team_body{
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+}
+.expert_img_body{
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+}
+.expert_img_body img{
+    width: 100%;
+}
+.expert_team_text_body{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+.expert_team_text1, .expert_team_text2{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.expert_team_text2{
+    width: 40%;
+    text-align: center;
+}
+.expert_team_text1 h1{
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.expert_team_text2 span{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ================================= */
+.meet_hero_body{
+    width: 100%;
+    height: auto;
+    margin-top: 4rem !important;
+    /* background-color: red; */
+}
+.meet_hero_text{
+    width: 60%;
+    height: auto;
+
+    margin: auto;
+    color: white;
+}
+.meet_hero_text h1{
+    font-family: Satoshi;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
+.meet_hero_img_body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.heros_img{
+    width: 260px;
+    height: auto;
+
+}
+.hero1{
+    width: 260px;
+    height: auto;
+    padding: 13px;
+    background-color: black;
+    padding-bottom: 2.1rem;
+}
+
+.hero1 img{
+    width: 100%;
+}
+.hero_text1{
+    width: auto;
+    height: auto;
+    color: white;
+}
+.hero_text1 h4{
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0;
+}
+.hero_link1{
+    margin-top: 20px;
+}
+.hero_text1 p, .hero_link1 p{
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    color: #8D959C;
+    margin: 0;
+}
+.hero_link_profiles{
+    width: auto;
+    height: auto;
+    
+}
+.hero_link1 p{
+
+    font-size: 17px;
+    width: 130px;
+    height: 37px;
+    float: left;
+
+}
+/* =============================== */
+.area_expert{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: -6rem;
+    padding-bottom: 2rem;
+}
+.notusing{
+    width: 100%;
+    height: 200px;
+}
+.area_expert_top_text{
+    width:auto;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.area_expert_top_text h1{
+    font-size: 50px;
+}
+.area_expert_link_body{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: .5rem;
+}
+.area_link1 {
+    width: 200px;
+    height: 40px;
+    font-size: 26px;
+    margin: auto;
+    border-bottom: 1px solid black;
+    margin-top: 1.3rem;
+    text-align: left;
+
+}
+.area_link2 {
+    width: 198px;
+    height: 40px;
+    font-size: 25px;
+    margin: auto;
+    border-bottom: 1px solid black;
+    margin-top: .9rem;
+    text-align: left;
+}
+.area_link a{
+    color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

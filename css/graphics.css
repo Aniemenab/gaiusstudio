@@ -1,0 +1,554 @@
+.Desktop-10-Body {
+    width: 100%;
+    height: 510px;
+    background-size: cover;
+}
+
+
+.cc a {
+    border-bottom: none !important;
+}
+
+.cc a:hover {
+    border-bottom: 1px solid !important;
+    transition: .2s ease-in;
+}
+
+.nt {
+    margin-top: -3rem;
+}
+.tnt {
+    margin-top: -2rem;
+}
+h2 {
+
+    margin: 0;
+}
+
+.desktop_10_body_text {
+    width: 100%;
+    height: auto;
+    padding-top: 4.8rem;
+
+}
+
+.desktop_10_body_text1 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.desktop_10_body_text1 h1 {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Alegreya', serif;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px;
+    /* 65% */
+}
+
+.desktop_10_body_text2 {
+    width: 360px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.desktop_10_body_text2 span {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    /* 162.5% */
+}
+
+.desktop_10_body_text2 span p {
+    margin-top: -10px;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    /* 162.5% */
+}
+
+.desktop_10_graphic_text_body {
+    width: 70%;
+    height: auto;
+    background-color: #111;
+    margin: auto;
+    margin-top: -5rem;
+    padding: 4rem;
+
+    color: white;
+    /* position: absolute; */
+}
+
+.desktop_10_graphic_text {
+    width: 74%;
+    height: auto;
+    background-color: #111;
+    margin: auto;
+    text-align: justify;
+    color: white;
+    /* position: absolute; */
+}
+
+.desktop_10_graphic_text span {
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 125% */
+
+}
+
+/* ========================================= */
+.bt {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid white;
+}
+
+.Graphic_product {
+    width: 100%;
+    height: auto;
+}
+
+.graphic_product_cover {
+    width: 82%;
+    height: auto;
+    margin: auto;
+
+}
+
+.graphic_product_list_body {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.graphic_product_list {
+    width: 420px;
+    height: auto;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.graphic_product_list_mid_body {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    color: white;
+    padding: 2rem 0 2rem 0;
+
+}
+
+.graphic_product_list_img_mid {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.graphic_product_list_img_mid img {
+    width: 100%;
+    height: 60vh;
+}
+
+.midh img {
+
+
+    transition: .4s ease-out;
+}
+
+.midh img:hover {
+
+    transform: scale(1.2);
+    transition: .4s ease-out;
+}
+
+.graphic_product_list_img {
+    width: 420px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.graphic_product_list_img img,
+.graphic_product_list_img2 img {
+    width: 100%;
+    height: 60vh;
+}
+
+/* =====================HOVER=================== */
+.one {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(23\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.one:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(22\).png');
+    
+}
+
+.two {
+    background-image: url('../image/caseStudy/Rectangle\ 54.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(26\).png');
+}
+
+.three {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(25\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(24\).png');
+}
+
+.four {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(6\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(7\).png');
+}
+
+.five {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(16\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(17\).png');
+}
+
+.six {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(27\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.six:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(28\).png');
+}
+
+.seven {
+
+    background-image: url('../image/caseStudy/Rectangle\ 57\ \(6\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seven:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 57\ \(4\).png');
+}
+
+.eight {
+
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(29\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.eight:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(18\).png');
+}
+
+.nine {
+
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(2\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nine:hover {
+    background-image: url('../image/caseStudy/Rectangle\ 54\ \(18\).png');
+ 
+}
+.ten {
+
+    background-image: url('../image/graphics/Rectangle\ 54\ \(8\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.ten:hover {
+    background-image: url('../image/graphics/Rectangle\ 54\ \(18\).png');
+ 
+}
+.eleven{
+    background-image: url('../image/graphics/Rectangle\ 54\ \(21\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eleven:hover {
+    background-image: url('../image/graphics/Rectangle\ 54\ \(11\).png');
+ 
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,.ten,
+.eleven {
+    transition: .8s ease;
+}
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover,
+.eight:hover,
+.nine:hover,
+.ten:hover,
+.eleven:hover0{
+    transition: .6s ease-out;
+}
+
+/* ========================END OF HOVER================ */
+.graphic_product_list2 {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: orange;
+}
+
+.graphic_product_list_img2 {
+    width: 450px;
+    height: 450px;
+    background-color: pink;
+    float: right;
+}
+
+.graphic_product_list_text_body {
+    width: auto;
+    height: auto;
+    padding: 20px 0 0 0;
+}
+
+.graphic_product_list_text_body2 {
+    width: auto;
+    height: auto;
+
+    padding: 20px 0;
+}
+
+.graphic_product_list_text1 {
+    width: auto;
+    height: auto;
+    margin-top: -18px;
+}
+
+.graphic_product_list_text1 h2 {
+    color: #FFF;
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px;
+    /* 95% */
+}
+
+.graphic_product_list_text2 {
+    width: auto;
+    height: 30px;
+   margin-top: -20px;
+}
+
+.graphic_product_list_text2 p {
+    opacity: .6;
+}
+
+/* =========================================== */
+
+.what_we_do_cover {
+    width: 100%;
+    height: 200px;
+    padding-top: 3rem;
+}
+
+.what_we_do {
+    width: 65%;
+    height: 100px;
+    margin: auto;
+}
+
+.what_we_do_top_text {
+    width: 140px;
+    height: auto;
+    margin: auto;
+
+}
+
+.what_we_do_top_text p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+    opacity: .7;
+}
+
+.what_we_do_brand {
+
+    width: 83%;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.what_we_do_brand a {
+
+    float: left;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+
+    height: 65px;
+    border-bottom: 1px solid white;
+}
+
+.what_we_do_brand a:nth-child(3),
+.what_we_do_brand a:nth-child(5) {
+    margin-left: 15px !important;
+}
+
+.what_we_do_brand hr {
+    float: left;
+    height: 15px;
+    transform: rotate(30deg);
+    margin: 33px 0 0 20px;
+}
+
+/* ================================== */
+.case_study_last_text_body {
+    width: 100%;
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.case_study_last_text {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.case_study_last_text p {
+    margin: 0;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 152.778% */
+}
+
+.case_study_last_text p mark {
+    margin: 0;
+    background-color: transparent;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.about_case_body {
+    width: 100%;
+    height: 100px;
+}
+
+.about_us_case {
+    width: 190px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.about_case_text {
+    width: auto;
+    height: auto;
+    padding-top: 13px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.about_case_text_img {
+    width: 55px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.about_case_text_img img {
+    width: 60%;
+}
+
+/* ========================== */
+.cc p {
+
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.cc h1 {
+
+    color: #FFF;
+    font-family: 'Alegreya', serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px;
+    /* 65% */
+    text-align: center;
+}

@@ -1,0 +1,152 @@
+@import url(../fonts/Satoshi-Regular.woff);
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999999999999999999999999999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.5s;
+    float: right !important;
+    overflow: hidden;
+}
+.sidenav .letTalk-text p{
+    margin-left: 4px;
+}
+.sidenav .letTalk{
+width: 110px;
+        border: 1px groove white;
+
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+.sideNav_body{
+    width: 93%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: .8rem;
+}
+
+.sideNav_socials{
+    width: 160px;
+    height: auto;
+    padding:2rem 0 20rem 0;
+    position: relative;
+    text-align: left;
+    margin-left: -2rem;
+ 
+}
+.sideNav_socials a{
+    color: white;
+}
+.sideNav_socials p{
+    margin: 1px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+.sideNav_socials a:hover{
+    padding-left: .1px;
+    color: #818181;
+    /* font-size: 28px; */
+    
+}
+.sideNav_socials a:nth-child(1){
+}
+
+.sideNav_img_body{
+    width: 300px;
+    height: auto;
+}
+.sideNav_img_body img{
+    width: 100%;
+}
+
+.sideNav_link_body{
+    width: auto;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+/* .sideNav_link_body a{
+    width: 300px;
+} */
+.sideNav_link_body h1{
+    margin: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: -13px;
+}
+.sideNav_link_body p{
+    margin: 0;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.sideNav_link_body h1:hover{
+    color: #818181;
+    transition: ease-in-out .2s;
+}
+.sidenav .NavMenu-img img{
+    width: 65%;
+    margin-top: -3px;
+}
+.sidenav .navBar{
+    width: 93%;
+
+}
